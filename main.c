@@ -13,6 +13,7 @@ int main()
 void stack(int *local1) 
 { 
 	int local2; 
+	printf("Hello world\n");
 	printf("\nAddress of first local : [%u]", local1); 
 	printf("\nAddress of second local : [%u]", &local2); 
 
