@@ -14,6 +14,7 @@ void stack(int *local1)
 { 
 	int local2; 
 	printf("Hello world\n");
+	printf("SSH feature branch fix\n");
 	printf("\nAddress of first local : [%u]", local1); 
 	printf("\nAddress of second local : [%u]", &local2); 
 
